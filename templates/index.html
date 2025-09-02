@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document OCR Converter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        .upload-form {
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        .file-input-wrapper {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .file-input {
+            position: absolute;
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+
+        .file-input-display {
+            border: 3px dashed #667eea;
+            border-radius: 15px;
+            padding: 40px 20px;
+            text-align: center;
+            background: #f8f9ff;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .file-input-display:hover {
+            border-color: #764ba2;
+            background: #f0f2ff;
+        }
+
+        .file-input-display.has-file {
+            border-color: #28a745;
+            background: #f0fff4;
+        }
+
+        .file-icon {
+            font-size: 3em;
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .file-text {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        .file-name {
+            color: #28a745;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        .format-select {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e1e5e9;
+            border-radius: 10px;
+            font-size: 1.1em;
+            background: white;
+            transition: border-color 0.3s ease;
+        }
+
+        .format-select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .upload-btn {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.2em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .upload-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .upload-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .result {
+            display: none;
+            background: #f8f9ff;
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .result.success {
+            background: #f0fff4;
+            border: 2px solid #28a745;
+        }
+
+        .result.error {
+            background: #fff5f5;
+            border: 2px solid #dc3545;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: background 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background: #218838;
+        }
+
+        .supported-formats {
+            background: #f8f9ff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .supported-formats h3 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .format-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+
+        .format-item {
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid #e1e5e9;
+        }
+
+        .format-item strong {
+            color: #667eea;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📄 Document OCR Converter</h1>
+            <p>Convert PDF and image files to machine-readable formats using OCR</p>
+        </div>
+
+        <form class="upload-form" id="uploadForm" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="file">Select Document File</label>
+                <div class="file-input-wrapper">
+                    <input type="file" id="file" name="file" class="file-input" accept=".pdf,.png,.jpg,.jpeg,.tiff,.bmp" required>
+                    <div class="file-input-display" id="fileDisplay">
+                        <div class="file-icon">📁</div>
+                        <div class="file-text">Click to select a file or drag and drop</div>
+                        <div class="file-name" id="fileName"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="outputFormat">Output Format</label>
+                <select id="outputFormat" name="output_format" class="format-select" required>
+                    <option value="">Select output format</option>
+                    <option value="json">JSON - Structured data format</option>
+                    <option value="csv">CSV - Spreadsheet format</option>
+                    <option value="txt">TXT - Plain text format</option>
+                </select>
+            </div>
+
+            <button type="submit" class="upload-btn" id="uploadBtn">
+                Convert Document
+            </button>
+        </form>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Processing your document... This may take a few moments.</p>
+        </div>
+
+        <div class="result" id="result">
+            <div id="resultContent"></div>
+        </div>
+
+        <div class="supported-formats">
+            <h3>📋 Supported Formats</h3>
+            <div class="format-list">
+                <div class="format-item">
+                    <strong>Input:</strong><br>
+                    PDF, PNG, JPG, JPEG, TIFF, BMP
+                </div>
+                <div class="format-item">
+                    <strong>Output:</strong><br>
+                    JSON, CSV, TXT
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const fileInput = document.getElementById('file');
+        const fileDisplay = document.getElementById('fileDisplay');
+        const fileName = document.getElementById('fileName');
+        const uploadForm = document.getElementById('uploadForm');
+        const uploadBtn = document.getElementById('uploadBtn');
+        const loading = document.getElementById('loading');
+        const result = document.getElementById('result');
+        const resultContent = document.getElementById('resultContent');
+
+        // File input handling
+        fileInput.addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                fileName.textContent = file.name;
+                fileDisplay.classList.add('has-file');
+            } else {
+                fileName.textContent = '';
+                fileDisplay.classList.remove('has-file');
+            }
+        });
+
+        // Drag and drop functionality
+        fileDisplay.addEventListener('dragover', function(e) {
+            e.preventDefault();
+            fileDisplay.style.borderColor = '#764ba2';
+        });
+
+        fileDisplay.addEventListener('dragleave', function(e) {
+            e.preventDefault();
+            fileDisplay.style.borderColor = '#667eea';
+        });
+
+        fileDisplay.addEventListener('drop', function(e) {
+            e.preventDefault();
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                fileInput.files = files;
+                fileName.textContent = files[0].name;
+                fileDisplay.classList.add('has-file');
+            }
+            fileDisplay.style.borderColor = '#667eea';
+        });
+
+        // Form submission
+        uploadForm.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData();
+            const file = fileInput.files[0];
+            const outputFormat = document.getElementById('outputFormat').value;
+
+            if (!file || !outputFormat) {
+                showResult('Please select a file and output format.', 'error');
+                return;
+            }
+
+            formData.append('file', file);
+            formData.append('output_format', outputFormat);
+
+            // Show loading state
+            uploadBtn.disabled = true;
+            loading.style.display = 'block';
+            result.style.display = 'none';
+
+            try {
+                const response = await fetch('/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    showResult(
+                        `✅ Document processed successfully!<br>
+                         <strong>Format:</strong> ${data.output_format.toUpperCase()}<br>
+                         <a href="${data.download_url}" class="download-btn" download>📥 Download Converted File</a>`,
+                        'success'
+                    );
+                } else {
+                    showResult(`❌ Error: ${data.detail}`, 'error');
+                }
+            } catch (error) {
+                showResult(`❌ Network error: ${error.message}`, 'error');
+            } finally {
+                uploadBtn.disabled = false;
+                loading.style.display = 'none';
+            }
+        });
+
+        function showResult(message, type) {
+            resultContent.innerHTML = message;
+            result.className = `result ${type}`;
+            result.style.display = 'block';
+        }
+    </script>
+</body>
+</html>

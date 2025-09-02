@@ -1,0 +1,357 @@
+==================================================
+EXTRACTED DOCUMENT TEXT
+==================================================
+
+Document Statistics:
+- Total Words: 2195
+- Total Paragraphs: 8
+- Total Characters: 11435
+
+--------------------------------------------------
+DOCUMENT CONTENT
+--------------------------------------------------
+
+--- Page 1 ---
+DEVANSH KUMAR
+Contact No. - 9058949408
+Address: Vill- Dhanwa ,Post - Khadlana ,Dist- Saharanpur,UP
+Pin Code -247341
+Email- shouravpanchal55555@gmail.com
+CAREER OBJECTIVE
+To work in an organization that offers a challenging career, this will enhance my
+knowledge and enable me to contribute to the organization.
+ACADEMIC BACKGROUND
+Board/University Year of Passing CGPA/%
+Graduation (B.Tech.) SHOBHIT UNIVERSITY 2026 7.87 CGPA(Till
+GANGOH, SAHARANPUR 5th Semester)
+UP BOARD 2022 65.4%
+TRAINING/PROJECT WORK
+Face Recognization attendance System
+e Technologies Used -
+Flask, Python , OpenCV
+e I work on Flask and OpenCV in this Project
+e Objectives
+This project is used for online attendance in university
+It has a the user friendly interface
+COMPUTER PROFICIENCY
+¢ Operating Systems: Windows X
+e Software Skill: MS Office (Word, Excel, PowerPoint, Power BI)
+e Skills : Python, Numpy , Pandas,Matplotlib
+
+--- Page 2 ---
+EXTRA CURRICULAR ACTIVITIES
+Participated in(Inter University TechnoZoom Fest 2024-25)
+Participated in Hackathon (Securing 3 position) in TechnoZoom Fest
+Participated in Hacking (Securing 1% position) in TechnoZoom Fest
+Participated in Inspirer day Celebration at Shobhit University in Games.
+PERSONAL DETAILS
+Date of Birth : 11/09/2004
+Father’s Name : Mr. Sandeep Kumar
+Mother’s Name : Mrs. Nidhi
+Gender : Male
+Marital Status : Unmarried
+Nationality : Indian
+Permanent Address : Vill - Dhanwa ,Post - Khadlana, Pin - 247341
+Languages known : English, Hindi
+DECLARATION
+I declare that the details above are correct and true to the best of my knowledge.
+Place: SHOBHIT UNIVERSITY Date: 15/05/2025
+Name & Signature:
+D> enone tL
+Devansh Kumar
+
+--- Page 3 ---
+mex, Shobhit sone
+3 j a = U a n
+SUL University
+4 . Established under Shobhit University Uttar Pradesh Act No.03, 2012
+\
+SEMESTER GRADE REPORT
+) FIRST SEMESTER (2022-2026)
+|
+|
+NAME :
+| : DEVANSH KUMAR ROLL No. : 22014168017 |
+FATHER' :
+| ER'S NAME : SANDEEP KUMAR ENROLLMENT No. : 2022010613
+BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE AND ENGINEERING
+S. No.
+°. SUBJECT CODE SUBJECT TITLE CREDITS GRADE
+| THEORY i
+\
+|
+| 1 CMAN-101 Mathematics - | 4 B |
+2 CMEN-101 Engineering Mechanics 4 Bt
+: ‘e | 3 CECN-101 Fundamental of Electronics 4 A |
+. .
+4 CESN-101 Engineering Chemistry and Environmental Science 4 Bt |
+5 CPCN-101 Presentation and Communication Skills 3 A |
+| |
+| PRACTICAL
+|
+|
+a 6 CMEN-151 Engineering Workshop Practice 1 A |
+7 CMEN-153 Engineering Graphics Lab 1 A
+Pee CPCN-151 Communication Lab 4 A+
+|
+i |
+| |
+|
+y |
+|
+|
+@ |
+{
+|
+| CREDITS EARNED IN THE SEMESTER = ee |
+| | SEMESTER GRADE POINT AVERAGE (SGPA) EU av |
+CUMULATIVE GRADE POINT AVERAGE (CGPA) Sry) e182 |
+| | EARNED CREDITS (EC) = 22 |
+| |
+| | CARRY OVER PAPER(S) NIL
+he j REMARK PASS |
+i DATE ; 20 Jan 2023 2S REGISTRAR
+S =]
+f Adarsh Institutional Area, Babu Vijendra Mare, Gangoh - 247341, Distt. Saharanpur, UP, India
+
+--- Page 4 ---
+i RS UN SUGB04906 |
+ld of vin
+: Or University
+Established under Shobhit University Uttar Pradesh Act No.03, 2012
+SEMESTER GRADE REPORT |
+SECOND SEMESTER (2022-2026)
+: |
+| NAME : DEVANSH KUMAR ROLL No. : 22014168017
+FATHER'S NAME : SANDEEP KUMAR ENROLLMENT No. : 2022010613 |
+BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE AND ENGINEERING
+|
+S.No. SUBJECTCODE SUBJECT TITLE CREDITS GRADE
+THEORY |
+1 CMAN-102 Mathematics - II 4 A |
+2 CEEN-102 Basics of Electrical Engineering 4 B
+@ 3 CPHN-102 _ Engineering Physics 4 A |
+4 CCSN-102 Computer Fundamentals and Programming Using C 4 B+ |
+5 CPCN-102 ‘Technical Communication 3 A |
+| |
+: PRACTICAL
+: | 6 CPHN-152 Engineering Physics Lab 1 A |
+F | G CCSN-152 Computer Programming Using C Lab 1 At |
+| fi | j
+| | 8 CEEN-152 Basic Electrical Engineering Lab 1 A
+| | !
+| |
+j |
+/
+J |
+a | |
+ma
+i
+1 } |
+1 |
+. |
+' | |
+|
+p | CREDITS EARNED IN THE SEMESTER BiTy, (22 |
+i | SEMESTER GRADE POINT AVERAGE (SGPA) =\/ 7.50 |
+a CUMULATIVE GRADE POINT AVERAGE (CGPA) = ry orl44 |
+Pp j EARNED CREDITS (EC) = 44 |
+|
+CARRY OVER PAPER(S) NIL |
+| REMARK PASS TY ANON
+{| | see gl rs) |
+et 118 USN ge] i
+, DATE : 30 June 2023 OES | REGISTRAR | )
+Adarsh Institutional Area, Babu Vijendra Marg, Gangoh - 247341, Distt. Saharanpur, UP, India
+
+--- Page 5 ---
+' U a
+APR SUGB6885 )
+. of oO
+= =a
+SUL University
+h : ' Established under Shobhit University Uttar Pradesh Act No.03, 2012
+|
+SEMESTER GRADE REPORT |
+£ | THIRD SEMESTER (2022-2026) |
+| |
+NAME : DEVANSH KUMAR ROLL No. + 22014168017
+: FATHER'S NAME : SANDEEP KUMAR ENROLLMENT No. : 2022010613
+j BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE AND ENGINEERING |
+| j S. No. SUBJECT CODE SUBJECT TITLE CREDITS GRADE |
+; | THEORY |
+; © 1 CCSN-201 _ Data Structure Using ‘C’ 4 A
+git 2 CCSN-203. DBMS 4 B+ | |
+f | 3 CCSN-205 Operating Systems (UNIX Programming) 4 B |
+4 CCSN-207 Java Programming 4 A+ |
+Ht { 5 CCSN209 _Discrete Mathematics 4 At | |
+: 6 CBSN-201 Value Education, Human Rights and Legislative Procedures 2 Bt
+PRACTICAL
+ri CCSN-251 Data Structure Using ‘C’ Lab 1 [e) |
+| 8 CCSN-253 DBMS Lab 1 At |
+Pea | 9 CCSN-255 Java Programming Lab 4 A+ |
+| pee, i
+A tte |
+| ; \
+rol
+|
+| CREDITS EARNED IN THE SEMESTER = 25 |
+| SEMESTER GRADE POINT AVERAGE (SGPA) = 7,92
+CUMULATIVE GRADE POINT AVERAGE (CGPA) asitF, GANOS
+EARNED CREDITS (EC) = 69
+CARRY OVER PAPER(S) NIL SITY. GF |
+REMARK PASS | - hp ott \
+| tr inate \ iw
+| ge GANCOH = og |
+‘ ‘i i DATE : 30 Jan 2024 REGISTRAR ;
+j : ti
+“Adarsh Institutional Area, Babu Vijendra Marg, Gangoh - 247341, Distt. Saharanpur, UP, India
+
+--- Page 6 ---
+NVUANY, ia a
+ogy) > hobhit |
+ewe, University
+; Established under Shobhit University Uttar Pradesh Act No.03, 2012
+'
+|
+| SEMESTER GRADE REPORT
+FOURTH SEMESTER (2022-2026) j
+; |
+NAME : DEVANSH KUMAR ROLL No. : 22014168017
+} FATHER'S NAME : SANDEEP KUMAR ENROLLMENT No. : 2022010613
+BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE AND ENGINEERING |
+S. No. SUBJECT CODE SUBJECT TITLE CREDITS GRADE
+|
+| THEORY |
+|
+| 1 CCSN-202 Object Oriented Programming Using C++ 4 A
+@ 2 CCSN-204 Design and Analysis of Algorithms 4 A |
+{
+j 3 CCSN-206 Internet and Web Technology 4 B+ |
+4 CCSN-208 Computer Networks 4 A |
+5 CCSN-210 Formal Languages and Automation Theory 4 A
+6 CBSN-204 Operations Research 2 (e)
+PRACTICAL |
+7 CCSN-252 Object Oriented Programming Using C++ Lab 1 At |
+| |
+8 CCSN-254 Design and Analysis Of Algorithms Lab 1 At |
+9 CCSN-256 Internet and Web Technology Lab 1 [e)
+j sites
+i ' |
+|
+|
+|
+el | |
+‘oa
+| |
+i
+|
+CREDITS EARNED IN THE SEMESTER Ser fhs |
+I SEMESTER GRADE POINT AVERAGE (SGPA) =" 8.16 | :
+CUMULATIVE GRADE POINT AVERAGE (CGPA) Caw far i
+por EARNED CREDITS (EC) SANE
+| |
+CARRY OVER PAPER(S) NIL
+| REMARK PASS : EQe' j
+REGISTRAR ee
+| DATE : 30 JUNE 2024 i
+
+--- Page 7 ---
+h bal
+SA A %, ae eh
+SHOBHIT UNIVERSITY, GANGOH
+ODD SEMESTER GRADE SHEET(PROVISIONAL)
+SESSION 2024-25
+ROLL No. 22014168017 | NAME DEVANSH KUMAR
+EN
+ENROLLMENT — {2922010613 | FATHER NAME | SANDEEP KUMAR
+BACHELOR OF TECHNOLOGY IN
+SEMESTER FIFTH COURSE NAME | COMPUTER SCIENCE ENGINEERING
+(2022-26)
+Sr. No. | Subject Name Subject Code
+| 1 [SOFTWARE ENGINEERING Cee IL oe aa
+| 2 [COMPILER DESIGN IC CSN=30:31a | Seaman ae | TAT
+OBJECT ORIENTED ANALYSIS AND
+CRYPTOGRAPHY & INFORMATION
+| 5 _|CLOUD COMPUTING [ Cie IL ee
+EGE ENERGYSTUDIESHENT Danna RECBSN-sotne IZ [A
+[7__ SOFTWARE ENGINEERING LAB BRC CS NESS | A
+| 8 [COMPILER DESIGN LAB CCSN-353
+OBJECT ORIENTED ANALYSIS AND
+ee aaa ceili |
+Tee (a
+Note: * UNIVERSITY is not responsible for any inadvertent error that may have crept in the results being published
+on NET. The results published on net are for immediate information of the students, cannot be treated as original
+mark sheet. Original mark sheets are to be issued by the University separately.
+Note:-
+i) E = Fail in External Semester Paper K U Ni wf
+ii) F= Fail in Internal and External Paper (& NN
+if x . =i)
+iii) ABSENT=NOT APPEARED IN THE EXAMINATION a EXAMINATION x
+Search Another Number 9, se oat
+2 ae oe —*
+
+--- Page 8 ---
+—~ y , a)
+4 LI ~ |! 4 7) a
+suet wea STUTT ‘| inane AADHAAR
+HIXA ACA ert / INFORMATION
+Government of India
+- @ STUN WU aT Warr f, ariteer at aeafale a att) ceafate
+- SUE aT UR ETT weer awa Se Pfreat A Rr ikee ofA
+, * carer & erat or artnfta BI
+. Bora en Wa Ht seg a raed canter wot & ake
+Nd larsyse edie UlielnItUT : Hirata Waroferor a ent aeaita fra ae aie a ta RR
+: Set vet - ; A SoeeY WAMU BI HUN FG Bs Fa Co F AGI Hs F
+Unique Identification Authority of India eter wes or wowuldel.gov.in. 9 SHE quinn WapET Sts
+aatert H4/ Enrolment No.: 0649/70501/03436 tet ar suai ere weanites far are mike |
+: @ aren fare ak aria F |
+To : w@ Wer sh 9a & aati A aeaaet @ UM & fv aes MI aT
+caret FAR : 2 Seder 10 at A anar B OH aT STUNT A HIRE TAT RT |
+Devansh kumar : @ one faftter arent att Aad orechtart a arr aa
+S/O: Sandeep Kumar, : area & |
+dhanwa, ' ;
+VTC: Dhanwa, ’ @ scun A svar Atnga var otk SA arSst arse S|
+PO: Khadlana, - @ sour aaa a em aa & fae waren te srsaats Ht |
+Sub District: Nakur, : @ srurwetdhiftes a scat a ert & ara Geen qafitur eet &
+District: Saharanpur, : fav srvatatiges ata/aaata aieen ar saat Ft
+State: Uttar Pradesh, : @ xe A AT Bea TA eRe Aa & fav aes EI
+PIN Code: 247341, ' ‘ as oes
+Mobile: 9058949408 ' @ Aadhaaris proof of identity, not of citizenship or date of birth (DOB). DOB
+' is based on information supported by proof of DOB document specified in
+Soest co nS art) F regulations, submitted by Aadhaar number holder.
+rebstersety wote ns ee |! @ This Aschaar letter should be verified through either online
+me 9 am ris = ea fren ote : authentication by UIDAI-appointed authentication agency or QR code
+eR angle Pa APRESS eee re elit : scanning using mAadhaar or Aadhaar QR Scanner app available in
+Pe A es Fett Wx fas Sa . app stores or using secure QR code reader app available on
+role a SUES: “ites Se pera '
+Sree a Pee . ® Aadhaar is unique and secure.
+ore eh Lee ae : ®@ Documents to support identity and address should be updated in
+we AE Seon ¥ ee E- bates ' Aadhaar after every 10 years from date of enrolment for Aadhaar
+Siaglesete He) ae aa @ Aadhaar helps you avail of various Government and Non-
+i : Government benefits/services.
+3TTAT STS HATH / Your Aadhaar No. : Keep your mobile number and email id updated in Aadhaar.
+4355 4533 5478 8 @ Download mAadhaar app to avail of Aadnaar services
+VID : 9146 0497 9340 2239 - @ Use the feature of Lock/Unlock Aachaar/biometrics to ensure
+: security when not using Aadhaar/biometrics.
+ant HTT, FART Gedlet - ®@ Entities seeking Aadhaar are obligated to seek consent.
+~---------------------------------------------—we-|!} ---------------------------------------------»e¢-
+ht... ~ By. |' caredtar faferse agar wrftracor Y
+.. —. “Za. ' ’ _-_ & y) v
+bd SGaentsitionndameS eS sree fi b Unique Identification Authority of india ZEN.
+Devansh kumar ' s TAR Hea 234i ee fae Seyi aes es a
+: at faft/pop: 11/09/2004 CHS Address: BPRS ot ih ea te
+3 Wea) MALE : 4 S/O: Sandeep Kumar, dhanwa, Dhanwa, PO: tegen sepia: Pein
+3 + § Khadlana, DIST: Saharanpur, a des eee Ss
+g STOTT ETI er TOT, eyrefReweet ear Ormefeafea wy ae | 1 F Gaia ac Fred 7: seer te eetb en: Bit
+i ; : are ovale Heures (sien safle, cr eye ae/ ‘la nan ath sf a red
+3 Aadhaar is proof of identity, not of citizenship ; Nee OF aS a ee ‘Yad!
+or date of birth. it should be used with verification (online| | Fae seen) hes Fee re
+authentication, or scanning of QR code / offline XML). : DLR FUER Ne tae Ti
+4355 4533 5478
+4355 4533 5478 y VID : 9146 0497 9340 2239
+wat oo aarerre, SHH wearer ‘ &, 1947 | & help@uidai.gov.in | @ wwwuidal.gov.in
+
+==================================================
+End of Document
+==================================================
